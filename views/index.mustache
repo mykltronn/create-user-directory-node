@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <h1>Here's some stuff with things</h1>
+
+    <main>
+    <ul>
+      {{#users}}
+        <li><img src="{{avatar}}"></li>
+        <li>{{name}}</li>
+        <li>{{job}}</li>
+        <li>{{company}}</li>
+      {{/users}}
+    </ul>
+
+    </main>
+
+
+
+    <script src="scripts/main.js"></script>
+  </body>
+
+</html>
